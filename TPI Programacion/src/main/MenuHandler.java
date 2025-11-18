@@ -446,7 +446,7 @@ public class MenuHandler {
         String observaciones = validarEntradaStringCantidadChar(scanner, "Observaciones (opcional)", 255);
         String observacionesFinal = observaciones;
 
-        return new CodigoBarras(id, false, tipo, valor, fechaAsignacion, observacionesFinal);
+        return new CodigoBarras(id, false, tipo, valor, fechaAsignacion, observaciones);
     }
 
     /**
